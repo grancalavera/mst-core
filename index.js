@@ -5,7 +5,6 @@ var Metalsmith = require('metalsmith')
   , permalinks = require('metalsmith-permalinks')
   , nunjucks = require('nunjucks')
 
-
 nunjucks
   .configure({watch: false})
   .addFilter('stretch', function(str) {
